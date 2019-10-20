@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+flask = "*"
+flask-restful = "*"
+celery = "*"
+flask-sqlalchemy = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+install = "*"
+
+[requires]
+python_version = "3.6"
